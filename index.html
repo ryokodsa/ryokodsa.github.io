@@ -8,52 +8,78 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="box01">
+    <div class="top">
         <h1>Ryoko Kodera</h1>
+        <p>小寺涼子のポートフォリオサイトです</p>
         <img src="ryoko.jpg" alt="ryoko photo" class="myphoto">
     </div>
     
-    <h2>About</h2>
-    <p>小寺涼子のポートフォリオサイトです</p>
-    <h2>About Me</h2>
-    <p>同志社大学生命医科学部医生命システム学科4年</p>
-    <p>プログラミングの勉強を大学1年から始め、将来はエンジニアとしてキャリアを築いていくために現在就活中。</p>
-    <h2>Works</h2>
-    <p>観劇スケジュール管理Webアプリ</p><a href="https://leira.pythonanywhere.com/">Stager</a>
-    <p>使用言語：HTML/CSS/JavaScript/Python/React/Django</p>
-    <h2>Skill Set</h2>
-    <h3>言語</h3>
-    <p>HTML</p>
-    <p>Webアプリ開発</p>
-    <p>CSS</p>
-    <p>Webアプリ開発</p>
-    <p>JavaScript</p>
-    <p>Webアプリ開発</p>
-    <p>Python</p>
-    <p>Webアプリ開発で使用</p>
-    <p>R</p>
-    <p>大学の授業で履修</p>
-    <p>VBA</p>
-    <p>大学の授業で履修</p>
-    <h3>フレームワーク</h3>
-    <p>Node.js</p>
-    <p>学習のみ</p>
-    <p>Django</p>
-    <p>webアプリ開発</p>
-    <p>React</p>
-    <p>Webアプリ開発で使用</p>
-    <h3>OS</h3>
-    <p>Linux</p>
-    <p>インストールから環境構築・設定・開発が可能</p>
-    <h2>Profile</h2>
-    <h3>大学1年生</h3>
-    <p>『Prontiat VR』というプロジェクトに参画。大学内の企業連携プロジェクト。VRゲームやWebVRの開発を行う。私はWeb班としてプロジェクトのWebサイトの制作や、Web上で操作可能なVR制作ツールPlaycanvasを用いたスマホVRゲームの開発を行った。</p>
-    <p>長期インターン① 株式会社mellowにて、関西支社の立ち上げを行う。</p>
-    <h3>大学2年生</h3>
-    <p>コロナ禍において、自由な時間が増えたため、Pythonの勉強を独学で始める。</p>
-    <p>長期インターン② Webサイト制作の仕事を行う。Webサイトの設計、コーディングからクライアント対応まで行った。</p>
-    <h3>大学3年生</h3>
-    <p>長期インターン③ 教育機関にて生徒サポートの仕事を行う。プログラミングを教える業務もあり。インターン生への特典として有志で募られたプログラミング学習プログラムに参加し、Web制作について半年間学ぶ。現在、プログラミングをより専門的に教えるインターンのコースに転向試験を受験中。</p>
-    <p>Webアプリケーションを1から制作。自分の好きな「演劇」と「プログラミング」かけ合わせたWebアプリ。</p>
+    <div class="aboutme">
+        <h2>About Me</h2>
+        <p>同志社大学生命医科学部医生命システム学科4年</p>
+        <p>プログラミングの勉強を大学1年から始め、将来はエンジニアとしてキャリアを築いていくために現在就活中。</p>
+    </div>
+
+    <div class="works">
+        <h2>Works</h2>
+        <p>観劇スケジュール管理Webアプリ</p><a href="https://leira.pythonanywhere.com/">Stager</a>
+        <p>使用言語：HTML/CSS/JavaScript/Python/React/Django</p>
+    </div>
+
+    <div class="skillset">
+        <h2>Skill Set</h2>
+        <table>
+            <tr>
+                <th>言語・FW</th>
+                <th>スキルレベル</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Webアプリ開発で使用</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Webアプリ開発で使用</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Webアプリ開発で使用</td>
+            </tr>   
+            <tr>
+                <td>Python</td>
+                <td>Webアプリ開発で使用</td>
+            </tr> 
+            <tr>
+                <td>React</td>
+                <td>Webアプリ開発で使用</td>
+            </tr>
+            <tr>
+                <td>Django</td>
+                <td>Webアプリ開発で使用</td>
+            </tr>
+            <tr>
+                <td>R</td>
+                <td>大学の授業で履修</td>
+            </tr>
+            <tr>
+                <td>VBA</td>
+                <td>大学の授業で履修</td>
+            </tr>                           
+        </table>
+    </div>
+    
+    <div class="profile">
+        <h2>Profile</h2>
+        <h3>大学1年生</h3>
+        <p>『Prontiat VR』というプロジェクトに参画。大学内の企業連携プロジェクト。VRゲームやWebVRの開発を行う。私はWeb班としてプロジェクトのWebサイトの制作や、Web上で操作可能なVR制作ツールPlaycanvasを用いたスマホVRゲームの開発を行った。</p>
+        <p>長期インターン① 株式会社mellowにて、関西支社の立ち上げを行う。</p>
+        <h3>大学2年生</h3>
+        <p>コロナ禍において、自由な時間が増えたため、Pythonの勉強を独学で始める。</p>
+        <p>長期インターン② Webサイト制作の仕事を行う。Webサイトの設計、コーディングからクライアント対応まで行った。</p>
+        <h3>大学3年生</h3>
+        <p>長期インターン③ 教育機関にて生徒サポートの仕事を行う。プログラミングを教える業務もあり。インターン生への特典として有志で募られたプログラミング学習プログラムに参加し、Web制作について半年間学ぶ。現在、プログラミングをより専門的に教えるインターンのコースに転向試験を受験中。</p>
+        <p>Webアプリケーションを1から制作。自分の好きな「演劇」と「プログラミング」かけ合わせたWebアプリ。</p>
+    </div>
+
 </body>
 </html>
